@@ -1,0 +1,47 @@
+.main-content {
+    background-image: linear-gradient(to bottom, rgba($color-green-dark, .8), rgba($color-green-dark, .6)), url('../img/hero.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__heading {
+        font-size: 2.2rem;
+        color: $color-brown-light;
+        text-align: center;
+    }
+
+    &__cta {
+        min-width: 50%;
+        height: auto;
+        padding: .8rem;
+    }
+
+    &__text {
+        background-color: transparent;
+        color: $color-brown-light;
+        font-size: 1.4rem;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.4;
+    }
+}
+
+.form-estimate {
+    background-color: $color-bright-white;
+    color: $color-gray-dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__heading {
+        text-align: center;
+        color: $color-gray-dark;
+        padding: 2rem 0;
+    }
+
+    &__submit {
+        background-color: $color-yellow!important;
+    }
+}

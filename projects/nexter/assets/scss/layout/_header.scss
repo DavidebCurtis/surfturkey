@@ -1,0 +1,28 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#hero {
+    width: 40rem;
+    height: auto;
+}
+
+.titles {
+    opacity: 0;
+    margin-right: 3rem;
+
+    &__title {
+        text-align: right;
+        
+    }
+
+    &__subtitle {
+        text-align: right;
+    }
+}
+
+

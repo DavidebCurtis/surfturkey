@@ -1,0 +1,101 @@
+.header {
+    height: 100vh;
+
+    .titles {
+
+        &-title {
+            text-align: right;
+        }
+
+        &-subtitle {
+            text-align: right;
+        }
+    }
+}
+
+// MAIN-CONTENT
+
+.main-content {
+    height: min-content;
+ 
+}
+ 
+.famous-logos {
+    display: flex;
+    flex-direction: column;
+}
+ 
+ .famous-logo {
+    width: 20rem;
+    height: auto;
+    margin: auto auto;
+    padding: 2rem;
+ }
+ 
+ .your-logo {
+    display: block;
+    width: 12rem;
+    height: auto;
+    margin: auto;
+ }
+ 
+
+ // SECTION WEB-STATS
+ 
+ .web-stats {
+
+    &__heading {
+        font-size: larger;
+    }
+
+     &__list {
+        
+        &__item {
+            padding: 2rem 0;
+        }
+     }
+ }
+
+
+// SECTION SERVICES
+
+ 
+.services {
+    height: min-content;
+   
+    &__box {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        background-color: $color-white;
+        padding: 1rem;
+        margin: 2rem auto;
+
+        &__heading {
+            color: $color-gray-dark;
+        }
+        
+        &__text {
+            color: $color-gray-dark;
+        }
+
+        &:hover {
+            background-color: #cfcfcf;
+            color: $color-gray-dark;
+            border-top-right-radius: 1rem;
+            border-bottom-left-radius: 1rem;
+        }
+
+        
+    }
+}
+ 
+ 
